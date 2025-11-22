@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body class="bg-green-600 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white shadow-xl rounded-xs p-8 w-full max-w-sm">
+
+    <form class="space-y-5">
+
+      <!-- Email -->
+      <div>
+        <input 
+          type="text"
+          class="w-full bg-gray-200 rounded-xs px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+          placeholder="Username"
+        />
+      </div>
+
+      <!-- Password -->
+      <div>
+        <input 
+          type="password"
+          class="w-full px-4 py-2 bg-gray-200 rounded-xs focus:outline-none focus:ring-2 focus:ring-green-500"
+          placeholder="Password"
+        />
+      </div>
+
+      <!-- Login Button -->
+      <button 
+        type="submit"
+        class="w-full bg-green-600 text-white font-semibold py-2 rounded-xs hover:bg-green-700 transition">
+        LOGIN
+      </button>
+
+      <p class="text-sm text-center text-gray-600 mt-4">
+        Not registered? 
+        <a href="#" class="text-green-600 hover:underline">Create an account</a>
+      </p>
+
+    </form>
+  </div>
+
+</body>
+</html>
